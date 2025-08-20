@@ -22,10 +22,10 @@
             </div>
         </div>
         <div class="flex gap-2 text-white pl-28 ">
-            <i class= " bg-gray-300 w-2 py-[12px]  h-2 items-center justify-center flex pr-[12px] pl-[12px]  text-[0.8em] rounded-full fa-brands fa-facebook"></i>
-            <i class=" bg-gray-300 w-2 py-[12px]  h-2 items-center flex pr-[18px] pl-[7px] text-[0.8em] rounded-full fa-brands fa-instagram"></i>
-            <i class=" bg-gray-300 w-2 py-[12px]  h-2 items-center flex pr-[18px] pl-[7px] text-[0.8em] rounded-full fa-brands fa-twitter"></i>
-            <i class=" bg-gray-300 w-2 py-[12px]  h-2 items-center flex pr-[18px] pl-[7px]  text-[0.8em] rounded-full fa-brands fa-tiktok"></i>
+            <i class= " bg-gray-300 w-2 py-[12px] hover:bg-orange-500  h-2 items-center justify-center flex pr-[12px] pl-[12px]  text-[0.8em] rounded-full fa-brands fa-facebook"></i>
+            <i class=" bg-gray-300 w-2 py-[12px] hover:bg-orange-500 h-2 items-center flex pr-[18px] pl-[7px] text-[0.8em] rounded-full fa-brands fa-instagram"></i>
+            <i class=" bg-gray-300 w-2 py-[12px] hover:bg-orange-500 h-2 items-center flex pr-[18px] pl-[7px] text-[0.8em] rounded-full fa-brands fa-twitter"></i>
+            <i class=" bg-gray-300 w-2 py-[12px] hover:bg-orange-500 h-2 items-center flex pr-[18px] pl-[7px]  text-[0.8em] rounded-full fa-brands fa-tiktok"></i>
             </div>
 
     </div>
@@ -38,91 +38,86 @@
                 <a href="index.html"><li class="text-[0.8em] font-medium text-orange-600">Home</li></a>
                 <a href="Properties.html"><li class="text-[0.8em] font-medium hover:text-orange-600" >Properties</li></a>
                 <a href="Property Details.html"><li class="text-[0.8em] font-medium hover:text-orange-600">Property Details</li></a>
-                <li class="text-[0.8em] font-medium hover:text-orange-600">Contact Us</li>
+                <a href="contact.html"><li class="text-[0.8em] font-medium hover:text-orange-600">Contact Us</li></a>
             </ul>
             <div>
             <button class="bg-black  text-white pr-4 rounded-3xl hover:text-orange-600 text-[0.8em] mb-[-10px] "> <i class="p-[12px] rounded-full text-[0.8em] mr-4 bg-orange-500 text-white fa-solid fa-calendar"></i>schedule a visit</button>
             </div>
         </div>
     </div>
-    <div class="">
-        <img class="relative" src="/images/banner-01.jpg" alt="">
-        <div class="absolute top-[450px] text-white flex px-14  gap-[1100px]">
-        <i class="fa-solid fa-angle-left text-[1.4em]"></i>
-        <i class="fa-solid fa-angle-right text-[1.4em]"></i>
+
+        <!-- kan kowaad -->
+        <div id="kan1aad" class="">
+            <img class="relative" src="/images/banner-01.jpg" alt="">
+            <div class="absolute top-[450px] text-white flex px-14 gap-[1050px]">
+                <i id="angleLeft1" class="fa-solid fa-angle-left text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+                <i id="angleRight1" class="fa-solid fa-angle-right text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+            </div>
+            <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Toronto, <span class="text-orange-500 ">Canada</span></p>
+            <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
+                <p>HURY!</p>
+                <p>GET THE BEST</p>
+                <p>VILLA FOR YOU</p>
+            </div>
         </div>
-        <div class="absolute top-[440px] flex px-10  gap-[1073px]">
-            <div class="bg-white opacity-40 ml-1 mb-3 rounded-full w-10 h-10"></div>
-            <div class="bg-white opacity-40 mr-6 mb-3 rounded-full w-10 h-10"></div>
+
+        <!-- kan labaad -->
+        <div id="kan2aad" class="hidden">
+            <img class="relative" src="/images/banner-02.jpg" alt="">
+            <div class="absolute top-[450px] text-white flex px-14 gap-[1050px]">
+                <i id="angleLeft2" class="fa-solid fa-angle-left text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+                <i id="angleRight2" class="fa-solid fa-angle-right text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+            </div>
+            <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Melbourne, <span class="text-orange-500 ">Australia</span></p>
+            <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
+                <p>BE QUICK!</p>
+                <p>GET THE BEST</p>
+                <p>VILLA IN TOWN</p>
+            </div>
         </div>
-        <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Toronto, <span class="text-orange-500 ">Canada</span></p>
-        <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
-        <p>HURY!</p>
-        <p>GET THE BEST</p>
-        <p>VILLA FOR YOU</p>
+
+        <!-- kan sedexaad -->
+        <div id="kan3aad" class="hidden">
+            <img class="relative" src="/images/banner-03.jpg" alt="">
+            <div class="absolute top-[450px] text-white flex px-14 gap-[1050px]">
+                <i id="angleLeft3" class="fa-solid fa-angle-left text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+                <i id="angleRight3" class="fa-solid fa-angle-right text-[1.4em] bg-white bg-opacity-25 py-2 px-3 hover:bg-opacity-70 rounded-full cursor-pointer"></i>
+            </div>
+            <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Miami, <span class="text-orange-500 ">Florida</span></p>
+            <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
+                <p>ACT NOW!</p>
+                <p>GET THE HIGHEST</p>
+                <p>LEVEL PENTHOUSE</p>
+            </div>
         </div>
-    </div>
-    <!-- kan labaad -->
-     <div class="hidden">
-        <img class="relative" src="/images/banner-02.jpg" alt="">
-        <div class="absolute top-[450px] text-white flex px-14  gap-[1100px]">
-        <i class="fa-solid fa-angle-left text-[1.4em]"></i>
-        <i class="fa-solid fa-angle-right text-[1.4em]"></i>
-        </div>
-        <div class="absolute top-[440px] flex px-10  gap-[1073px]">
-            <div class="bg-white opacity-40 ml-1 mb-3 rounded-full w-10 h-10"></div>
-            <div class="bg-white opacity-40 mr-6 mb-3 rounded-full w-10 h-10"></div>
-        </div>
-        <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Melbourne, <span class="text-orange-500 ">Australia</span></p>
-        <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
-        <p>BE QUICK!</p>
-        <p>GET THE BEST</p>
-        <p>VILLA IN TOWN</p>
-        </div>
-    </div>
-    <!-- kan sedexaad -->
-     <div class="hidden">
-        <img class="relative" src="/images/banner-03.jpg" alt="">
-        <div class="absolute top-[450px] text-white flex px-14  gap-[1100px]">
-        <i class="fa-solid fa-angle-left text-[1.4em]"></i>
-        <i class="fa-solid fa-angle-right text-[1.4em]"></i>
-        </div>
-        <div class="absolute top-[440px] flex px-10  gap-[1073px]">
-            <div class="bg-white opacity-40 ml-1 mb-3 rounded-full w-10 h-10"></div>
-            <div class="bg-white opacity-40 mr-6 mb-3 rounded-full w-10 h-10"></div>
-        </div>
-        <p class="absolute top-80 px-3 py-1 ml-72 bg-white font-medium">Miami, <span class="text-orange-500 ">Florida</span></p>
-        <div class="absolute top-96 text-white text-5xl font-bold pl-[290px] space-y-3">
-        <p>ACT NOW!</p>
-        <p>GET THE HIGHEST</p>
-        <p>LEVEL PENTHOUSE</p>
-        </div>
-    </div>
+
+     <!-- features -->
+
     <div class="flex gap-8 ml-32 py-20">
         <div class="relative">
-            <img class="w-72" src="/images/featured.jpg" alt="">
+            <img class="w-72 h-[420px]" src="/images/featured.jpg" alt="">
             <img class=" bg-orange-600 rounded-full text-white px-4 py-3 absolute bottom-[-40px] right-60  " src="/images/featured-icon.png" alt="">
             
         </div>
         <div>
             <div>
             <p class="text-orange-600 font-bold text-[0.8em] ">| FEATURED </p>
-            <p class="text-4xl font-bold mt-4">Best Appartment</p>
+            <p class="text-4xl font-bold mt-5">Best Appartment</p>
             <p class="text-4xl font-bold pt-2">& Sea view</p>
             </div>
-            <div class="bg-gray-50 mt-10 pl-4 w-96">
-            <p class="py-3">Best useful links ?</p>
+            <div class="bg-gray-50 mt-10 pl-4 w-[400px]">
+            <p id="bestInHome" class="py-3 text-[0.9em] font-medium cursor-pointer">Best useful links ?</p>
             <hr>
-            <p class="hidden">Get the best villa website template in HTML CSS and <br> Bootstrap for your business. TemplateMo provides you the <br>best free CSS templates in the world. Please tell your <br> friends about it.</p>
-            <p class="py-3">How does this work ?</p>
+            <p id="getInHome" class="hidden py-2 w-[375px] text-[0.9em]">Get <span class="font-bold">the best villa</span> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <span class="text-blue-600">best free CSS templates</span> in the world. Please tell your friends about it.</p>
+            <p id="howInHome" class="py-3 text-[0.9em] cursor-pointer font-medium">How does this work ?</p>
             <hr>
-            <p class="hidden">Dolor almesit amet, consectetur adipiscing elit, sed <br> doesn't eiusmod tempor incididunt ut labore consectetur <br>adipiscing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</p>
-            <p class="py-3">Why is Villa Agency the best ?</p>
+            <p id="dolorInHome" class="hidden p-2 w-[385px] text-[0.9em]">Dolor <span class="font-bold">almesit amet</span>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <span class="text-[0.7em] tracking-widest text-rose-500">adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="whyInHome" class="py-3 text-[0.9em] cursor-pointer font-medium">Why is Villa Agency the best ?</p>
             <hr>
-            <p class="hidden">Dolor almesit amet, consectetur adipiscing elit, sed <br> doesn't eiusmod tempor incididunt ut labore consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</p>
+            <p id="almistInHome" class="hidden p-2 w-[385px] text-[0.9em]">Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <span class="text-[0.7em] tracking-widest text-rose-500">adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div >
-        <div class="ml-8 bg-white shadow-2xl px-7 py-2 rounded-xl w-64">
+        <div class="ml-5 bg-white shadow-2xl px-7 py-2 rounded-xl w-64">
         <div class="flex gap-3 py-6">
             <img class="w-10 h-10 mt-1" src="/images/info-icon-01.png"alt="">
         <div>
@@ -207,13 +202,15 @@
             <p class="font-bold text-[2.1em] pl-2">Right Now!</p>
         </div>
         <div class="mt-20">
-            <button class="py-2 px-5 rounded-md bg-black text-white">Appartment</button>
-            <button class="py-2 px-5 rounded-md bg-black text-white">Villa House</button>
-            <button class="py-2 px-5 rounded-md bg-black text-white">Penthouse</button>
+            <button id="btnApartment" class="py-2 px-5 rounded-md bg-black text-white">Appartment</button>
+            <button id="btnVilla" class="py-2 px-5 rounded-md bg-black text-white">Villa House</button>
+            <button id="btnPentHouse" class="py-2 px-5 rounded-md bg-black text-white">Penthouse</button>
         </div>
         </div>
 
-        <div class="flex justify-evenly pb-24 px-5">
+        <!-- Apartment -->
+         <div id="apartment" >
+        <div   class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -252,9 +249,11 @@
 
         </div>
         </div>
+        </div>
 
         <!-- villa house -->
-          <div class="flex sm:hidden justify-evenly pb-24 px-5">
+         <div id="villa" class="hidden">
+          <div  class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -293,9 +292,11 @@
 
         </div>
         </div>
+        </div>
 
         <!-- pentHouse -->
-          <div class="flex sm:hidden justify-evenly pb-24 px-5">
+         <div id="pentHouse" class="hidden">
+          <div  class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -334,6 +335,9 @@
 
         </div>
         </div>
+        </div>
+
+
     </div>
         <!-- properties -->
     <div>
@@ -359,7 +363,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">6 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                    <a href=""><button class="bg-black hover:bg-orange-600 text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
 
@@ -380,7 +384,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">8 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                    <a href="Property Details.html"><button class="bg-black text-white hover:bg-orange-600 py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
 
@@ -401,7 +405,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">10 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                   <a href="Property Details.html"> <button class="bg-black text-white hover:bg-orange-600 py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
         </div>
@@ -424,7 +428,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">6 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                   <a href="Property Details.html"> <button class="bg-black text-white hover:bg-orange-600 py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
 
@@ -445,7 +449,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">8 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                   <a href="Property Details.html"> <button class="bg-black text-white hover:bg-orange-600 py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
 
@@ -466,7 +470,7 @@
                     <p class="text-gray-500 font-medium text-[0.8em]"> Parking:<span class="text-black">10 spots</span></p>
                     </div>
                     <hr >
-                    <button class="bg-black text-white py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button>
+                   <a href="Property Details.html"> <button class="bg-black text-white hover:bg-orange-600 py-1.5 px-6 rounded-2xl text-[0.8em] mt-8 mb-5 ml-16">Schedule a visit</button></a>
                 
             </div>
         </div>
