@@ -102,16 +102,16 @@
          <p  class="text-[0.8em]  w-[700px] leading-7" >When you look for free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Digital Marketing, TemplateMo Corporate Layouts, etc. Master cleanse +1 intelligentsia swag post-ironic, slow-carb chambray knausgaard PBR&B DSA poutine neutra cardigan hoodie pop-up.</p>   
         
 
-            <div class="bg-gray-50 mt-10 w-[700px] pl-4 mb-20">
-            <p class="py-3">Best useful links ?</p>
+            <div class="bg-gray-50 mt-10 mb-10 pl-4 w-[700px] ">
+            <p id="bestProDet" class="py-3 text-[0.9em] font-medium cursor-pointer">Best useful links ?</p>
             <hr>
-            <p class="hidden">Get the best villa website template in HTML CSS and <br> Bootstrap for your business. TemplateMo provides you the <br>best free CSS templates in the world. Please tell your <br> friends about it.</p>
-            <p class="py-3">How does this work ?</p>
+            <p id="getProDet" class="hidden py-2 w-[375px] text-[0.9em]">Get <span class="font-bold">the best villa</span> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <span class="text-blue-600">best free CSS templates</span> in the world. Please tell your friends about it.</p>
+            <p id="howProDet" class="py-3 text-[0.9em] cursor-pointer font-medium">How does this work ?</p>
             <hr>
-            <p class="hidden">Dolor almesit amet, consectetur adipiscing elit, sed <br> doesn't eiusmod tempor incididunt ut labore consectetur <br>adipiscing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</p>
-            <p class="py-3">Why is Villa Agency the best ?</p>
+            <p id="dolorProDet" class="hidden p-2 w-[385px] text-[0.9em]">Dolor <span class="font-bold">almesit amet</span>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <span class="text-[0.7em] tracking-widest text-rose-500">adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p id="whyProDet" class="py-3 text-[0.9em] cursor-pointer font-medium">Why is Villa Agency the best ?</p>
             <hr>
-            <p class="hidden">Dolor almesit amet, consectetur adipiscing elit, sed <br> doesn't eiusmod tempor incididunt ut labore consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua.</p>
+            <p id="almistProDet" class="hidden p-2 w-[385px] text-[0.9em]">Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <span class="text-[0.7em] tracking-widest text-rose-500">adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             </div>
 
@@ -124,12 +124,13 @@
             <p class="font-bold text-[2.1em] pl-2">Right Now!</p>
         </div>
         <div class="mt-20">
-            <button class="py-2 px-5 rounded-md bg-black text-white">Appartment</button>
-            <button class="py-2 px-5 rounded-md bg-black text-white">Villa House</button>
-            <button class="py-2 px-5 rounded-md bg-black text-white">Penthouse</button>
+            <button id="btnApartmentDet" class="py-2 px-5 rounded-md bg-black text-white">Appartment</button>
+            <button id="btnVillaDet" class="py-2 px-5 rounded-md bg-black text-white">Villa House</button>
+            <button id="btnPentHouseDet" class="py-2 px-5 rounded-md bg-black text-white">Penthouse</button>
         </div>
         </div>
-
+       <!-- appartment -->
+        <div id="apartmentDet">
         <div class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
@@ -169,9 +170,11 @@
 
         </div>
         </div>
+        </div>
 
         <!-- villa house -->
-          <div class="flex sm:hidden justify-evenly pb-24 px-5">
+         <div id="villaDet" class="hidden">
+          <div class="flex  justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -210,9 +213,11 @@
 
         </div>
         </div>
+        </div>
 
         <!-- pentHouse -->
-          <div class="flex sm:hidden justify-evenly pb-24 px-5">
+         <div id="pentHouseDet" class="hidden">
+          <div class="flex  justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -252,11 +257,15 @@
         </div>
         </div>
     </div>
+    </div>
 
     <!-- footer -->
     <div class="bg-black py-8 text-white ">
         <p class="pl-48 text-[0.9em]">Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: TemplateMo</p>
     </div>
         </div >
+
+
+        <script src="main.js"></script>
 </body>
 </html>

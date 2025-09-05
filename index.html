@@ -6,6 +6,23 @@
     <title>Real State</title>
       <script src="https://cdn.tailwindcss.com"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+            @keyframes scaleUp {
+            0% {
+                opacity: 0;
+                transform: scale(0.8) translateY(60px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+            }
+            .animate-scaleUp {
+            animation: scaleUp 0.1s ease-out forwards;
+            }
+        </style>
+
+
 
 </head>
 <body>
@@ -202,15 +219,15 @@
             <p class="font-bold text-[2.1em] pl-2">Right Now!</p>
         </div>
         <div class="mt-20">
-            <button id="btnApartment" class="py-2 px-5 rounded-md bg-black text-white">Appartment</button>
+            <button id="btnApartment" class="py-2  px-5 rounded-md bg-orange-600 text-white">Appartment</button>
             <button id="btnVilla" class="py-2 px-5 rounded-md bg-black text-white">Villa House</button>
             <button id="btnPentHouse" class="py-2 px-5 rounded-md bg-black text-white">Penthouse</button>
         </div>
         </div>
 
         <!-- Apartment -->
-         <div id="apartment" >
-        <div   class="flex justify-evenly pb-24 px-5">
+        <div id="apartment" class="animate-scaleUp">
+        <div class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
                 <p class="text-gray-400 text-[0.9em]">Total Flat Space</p>
@@ -236,23 +253,28 @@
                 <p class="text-gray-400 text-[0.9em]">Payment Process</p>
                 <p class="font-bold text-[1.2em]">Bank</p>
             </div>
-        </div>
+            </div>
 
-        <div>
+            <div>
             <img class="w-[450px]" src="/images/deal-01.jpg" alt="">
-        </div>
-        <div>
+            </div>
+            <div>
             <p class="text-[0.9em] font-bold">Extra Info About Property</p>
             <p class="text-[0.8em] leading-6 pt-5">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, do eiusmod tempor pack <br> incididunt ut labore et dolore magna aliqua <br> quised ipsum suspendisse.</p>
             <p class="text-[0.8em] pt-5 leading-6">When you need free CSS templates, you <br> can simply type TemplateMo in any search <br> engine website. In addition, you can type <br> TemplateMo Portfolio, TemplateMo One <br> Page Layouts, etc.</p>
-            <button class="bg-black text-white pr-5 rounded-3xl mt-6 "> <i class="pr-3 pl-3 pt-3 pb-3 rounded-full text-[0.8em] mr-4 bg-orange-500 text-white fa-solid fa-calendar"></i>schedule a visit</button>
+            <button class="bg-black text-white pr-5 rounded-3xl mt-6 "> 
+                <i class="pr-3 pl-3 pt-3 pb-3 rounded-full text-[0.8em] mr-4 bg-orange-500 text-white fa-solid fa-calendar"></i>
+                schedule a visit
+            </button>
+            </div>
+        </div>
+        </div>
 
-        </div>
-        </div>
-        </div>
+
+
 
         <!-- villa house -->
-         <div id="villa" class="hidden">
+         <div id="villa" class="hidden animate-scaleUp">
           <div  class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
@@ -295,7 +317,7 @@
         </div>
 
         <!-- pentHouse -->
-         <div id="pentHouse" class="hidden">
+         <div id="pentHouse" class="hidden animate-scaleUp">
           <div  class="flex justify-evenly pb-24 px-5">
             <div class="bg-gray-50 shadow-2xl ml-6 mb-6 w-[250px] h-[320px] rounded-xl">
             <div class="flex justify-between py-3 px-5">
